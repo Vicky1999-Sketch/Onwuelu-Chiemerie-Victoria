@@ -7,7 +7,7 @@ Global Superstore is a global online retailer based in New York, boasting a broa
 This dataset comprises three tables:
 - **Order Table**: Contains 24 columns ([Row ID, Order ID, Order Date, Ship Date, Ship Mode, Customer ID, Customer Name, Segment, City, State, Country, Market, Region, Product ID, Category, Subcategory, Product Name, Sales, Quantity, Discount, Profit, Postal Code, Shipping Cost, Order Priority]) and 51,290 rows. The dataset includes over 10,000 different products purchased by customers from 147 different countries. Products belong to three main categories: office supplies (e.g., staples), furniture (e.g., chairs), and technology (e.g., smartphones).
 - **People Table**: Contains 2 columns and 13 rows.
-- **Returns Table**: Contains 3 columns and 1,173 rows.
+- **Returns Table**: Contains 3 columns and 1,173 rows.  
 ![Flat file](https://github.com/user-attachments/assets/7bfdb7bb-7233-4895-a121-e5f17def8aa8)
 ## III. Problem Statement
 ### 1. Profitability Analysis
@@ -28,8 +28,50 @@ This dataset comprises three tables:
 **(a)** Identify the product subcategory with the highest average profit in Australia.
 ### 7. Customer Value Analysis
 **(a)** Identify the most valuable customers and what they purchase.
+## IV. Methodology
+Power BI was used for data cleaning, modeling, analysis, and visualization.
+## V. Data Transformation & Cleaning
+The dataset was cleaned using Power Query. The steps included:
+1. Confirming data types, ensuring correctness.
+2. Extracting the year from the Order Date column in the Order Table.
+3. Deleting the Postal Code column from the Order Table due to 80% null values.
+4. Removing the People Table as it was irrelevant to the analysis.
+5. Using the first row as headers in the Returns Table.
+6. Merging the Returns Table with the Order Table. Then, splitting the Order Table into fact and dimension tables for data modeling.
+7. Removing duplicates in all dimension tables except the Fact Table and Customer Table.
+## VI. Data Modeling
+### A. Fact Table Columns:
+The Fact Table contained numeric data and key identifiers: Customer ID, Discount, Order Date, Order ID, Order Year, Product ID, Profit, Quantity, Row ID, Sales, Ship Date, Ship Mode, and Shipping Cost.
+### B. Dimension Tables:
+1. **Customer Table** ([Customer ID, Customer Name, Segment]) – One-to-many relationship with the Fact Table.
+2. **Location Table** ([Row ID, City, Country, Market, Region, State]) – One-to-one relationship with the Fact Table.
+3. **Product Table** ([Product ID, Category, Subcategory, Product Name]) – One-to-many relationship with the Fact Table.
+4. **Order & Shipping Table** ([Order ID, Order Date, Order Priority, Order Year, Returned, Ship Date, Ship Mode]) – One-to-many relationship with the Fact Table.
+![P2 Data modelling](https://github.com/user-attachments/assets/beb6bbb4-18d5-4a6d-a7c0-e753dc6be191)
+## VII. DAX Formulas Used
+1. Number of customers
+2. Number of countries
+3. Number of products
+4. Number of orders
+5. Total profits
+6. Average shipping cost
+7. Average discount
+8. Average profit
+9. Average profit for cities with at least 10 orders
+10. City order count
+## VIII. Findings & Insights
+1a. **Top 3 profitable countries in 2014:**
+![Most Profitable Countries](https://github.com/user-attachments/assets/5cb7d1f4-2480-432c-9237-d8d81dfa1bd1)
+### Findings:
+  - USA ($94K), India ($49K), China ($47K).
+### Insight: 
+The United States generated the highest total profit in 2014, with nearly twice the profit of India, the second-highest earner. China followed closely behind India.
 
+  b. **Top 3 profitable products per country:**
+  USA                                          | India                                            | China
+  :-------------------------------------------:|:------------------------------------------------:|:--------------------------------------------------:
+  ![P2 USA](https://github.com/user-attachments/assets/dc95ffe4-c14f-4274-9055-4c0df770ef7d)|![P2 India](https://github.com/user-attachments/assets/a7ea669e-5934-4ae3-b54f-1c3443e8ccf2)|![P2 China](https://github.com/user-attachments/assets/8bd8fb58-493b-427e-aa62-2a913a17b677)
 
-
+  
 
 
