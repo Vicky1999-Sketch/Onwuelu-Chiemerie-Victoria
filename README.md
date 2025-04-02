@@ -66,11 +66,34 @@ The Fact Table contained numeric data and key identifiers: Customer ID, Discount
   - USA ($94K), India ($49K), China ($47K).
 ### Insight: 
 The United States generated the highest total profit in 2014, with nearly twice the profit of India, the second-highest earner. China followed closely behind India.
+b. **Top 3 profitable products per country:**
+USA                                          | India                                            | China
+:-------------------------------------------:|:------------------------------------------------:|:--------------------------------------------------:
+![P2 USA](https://github.com/user-attachments/assets/dc95ffe4-c14f-4274-9055-4c0df770ef7d)|![P2 India](https://github.com/user-attachments/assets/a7ea669e-5934-4ae3-b54f-1c3443e8ccf2)|![P2 China](https://github.com/user-attachments/assets/8bd8fb58-493b-427e-aa62-2a913a17b677)
+### Insight: 
+Bookcases are the top-selling products in both India and China, while copiers are the most popular in the United States.
+2a. **Highest shipping costs in the USA:**
+![HASC USA](https://github.com/user-attachments/assets/43c16e6b-c1b5-40a2-96aa-de2985291810)
+### Findings:
+- Copiers (165), Machines (132), and Tables (70)
+3a. **Nigeria’s profitability in 2014:**
+Globally                                                           | Africa
+:-----------------------------------------------------------------:|:----------------------------------------------------------------:
+![NP Globally](https://github.com/user-attachments/assets/a398fd98-d08d-433f-b7df-5b28c7885e4d)|![NP Africa](https://github.com/user-attachments/assets/dab52de4-4c62-4fb1-aa3d-a07b7306f82f)
+### Findings
+- Globally, out of the 138 countries in 2014, Nigeria ranked second to last profitable country with a profit/ loss of $-23,285.19, compared to the highest most profitable that year, USA with 93507.51.
+- When compared with other 39 African countries that year, Nigeria came last with the most profitable being south Africa, with 9,363.24
+b. **Factors that might be responsible for Nigeria’s poor performance:**
+- Nigeria had 137 orders, 128 customers, and 257 products. When the number of customers, products, and orders in Nigeria is compared to other countries globally and amongst African countries, it becomes clear that the major challenge of the Nigerian market, or its low position, isn't due to being the lowest in these parameters. In fact, in comparison, these parameters are relatively high. 
+Notably, some factors most likely responsible for Nigeria's poor revenue performance are its high average discount and low shipping cost. 
+Nigeria had an average discount of 0.70, which is significantly higher than the global average (0.14) and the African average (0.14). 
+Additionally, the analysis further suggests a potential correlation between high shipping costs and high profitability. The top profitable countries both globally and in Africa (USA, South Africa, and Morocco) had relatively high shipping costs. Nigeria's average shipping cost was $5.50, which is lower than the global average ($26.27) and the African average ($18.52), potentially impacting its revenue.
+4a. **Least profitable subcategory in Southeast Asia:**
+Visualization:
 
-  b. **Top 3 profitable products per country:**
-  USA                                          | India                                            | China
-  :-------------------------------------------:|:------------------------------------------------:|:--------------------------------------------------:
-  ![P2 USA](https://github.com/user-attachments/assets/dc95ffe4-c14f-4274-9055-4c0df770ef7d)|![P2 India](https://github.com/user-attachments/assets/a7ea669e-5934-4ae3-b54f-1c3443e8ccf2)|![P2 China](https://github.com/user-attachments/assets/8bd8fb58-493b-427e-aa62-2a913a17b677)
+
+
+
 
   
 
