@@ -66,13 +66,17 @@ The Fact Table contained numeric data and key identifiers: Customer ID, Discount
   - USA ($94K), India ($49K), China ($47K).
 ### Insight: 
 The United States generated the highest total profit in 2014, with nearly twice the profit of India, the second-highest earner. China followed closely behind India.
+
 b. **Top 3 profitable products per country:**
+
 USA                                          | India                                            | China
 :-------------------------------------------:|:------------------------------------------------:|:--------------------------------------------------:
 ![P2 USA](https://github.com/user-attachments/assets/dc95ffe4-c14f-4274-9055-4c0df770ef7d)|![P2 India](https://github.com/user-attachments/assets/a7ea669e-5934-4ae3-b54f-1c3443e8ccf2)|![P2 China](https://github.com/user-attachments/assets/8bd8fb58-493b-427e-aa62-2a913a17b677)
 ### Insight: 
 Bookcases are the top-selling products in both India and China, while copiers are the most popular in the United States.
+
 2a. **Highest shipping costs in the USA:**
+
 ![HASC USA](https://github.com/user-attachments/assets/43c16e6b-c1b5-40a2-96aa-de2985291810)
 ### Findings:
 - Copiers (165), Machines (132), and Tables (70)
@@ -112,11 +116,15 @@ b. **The specific country in Southeast Asia that should stop offering the produc
 - **Lancaster** (-$157.37 average profit)
 b. **The reasons behind this city’s low average profit**
 Copier had the most sales, with an average profit of $817.90 in the United States. On average, Lafayette, the most profitable city in the United States, surpassed that with $8,399.98. However, despite Copier being the top-selling category nationwide, Lancaster made no sales in the Copier category. Furthermore, Lancaster experienced a significant loss in Machines (-$6,599.98), contributing to the city's overall low average profit.
+
 6a. **Most profitable subcategory in Australia:**
+
 ![HAPS](https://github.com/user-attachments/assets/b4ad68e1-384d-4523-b219-dd32c9ceec90)
 ### Finding:
 - **Appliances** ($139.01 average profit).
+
 7a **Most valuable customers:**
+
  ![MVC](https://github.com/user-attachments/assets/4e9751c0-0c1e-4630-94a4-c5a7d3707116)
 ### Finding:
 - Top customers mainly purchased **Canon imageCLASS 2200 Advanced Copiers**.
@@ -137,6 +145,10 @@ Copier had the most sales, with an average profit of $817.90 in the United State
 This analysis of Global Superstore’s dataset has highlighted key trends and insights into profitability, shipping costs, and customer behavior. The United States remains the most profitable market, while Nigeria struggles due to high discounts and low shipping costs. In Southeast Asia, table sales are a major loss driver, particularly in Indonesia. Furthermore, Lancaster’s low profitability in the United States is linked to poor product mix and high losses in the machine category. Addressing these issues through strategic product positioning, pricing adjustments, and cost optimization will enhance overall profitability and operational efficiency for Global Superstore.
 
 ## Dashboard
+![P2 D2](https://github.com/user-attachments/assets/88008ad3-a87c-4617-8176-88a677790199)
+Page 1
+![P2 D1](https://github.com/user-attachments/assets/149a1edc-bd91-4c83-a081-7335f89b04dc)
+Page 2
 
 
 
