@@ -108,6 +108,44 @@ b. **The specific country in Southeast Asia that should stop offering the produc
 **Indonesia**. This is due to extreme losses (-$10,680.28).
 5a. **Least profitable city in the USA:**
 ![P2 lapc](https://github.com/user-attachments/assets/939a2b1d-b7e7-40c3-840d-d0447663f760)
+### Finding:
+- **Lancaster** (-$157.37 average profit)
+b. **The reasons behind this city’s low average profit**
+Copier had the most sales, with an average profit of $817.90 in the United States. On average, Lafayette, the most profitable city in the United States, surpassed that with $8,399.98. However, despite Copier being the top-selling category nationwide, Lancaster made no sales in the Copier category. Furthermore, Lancaster experienced a significant loss in Machines (-$6,599.98), contributing to the city's overall low average profit.
+6a. **Most profitable subcategory in Australia:**
+![HAPS](https://github.com/user-attachments/assets/b4ad68e1-384d-4523-b219-dd32c9ceec90)
+### Finding:
+- **Appliances** ($139.01 average profit).
+7a **Most valuable customers:**
+ ![MVC](https://github.com/user-attachments/assets/4e9751c0-0c1e-4630-94a4-c5a7d3707116)
+### Finding:
+- Top customers mainly purchased **Canon imageCLASS 2200 Advanced Copiers**.
+## IX. Recommendations
+1. Increase resource allocation to the USA, India, and China to capitalize on high-profit potential.
+2. Customize product offerings by region (e.g., focus on copiers in the USA and bookcases in India/China).
+3. Investigate the reasons behind the relatively high shipping costs for machines and tables in the United States, as these two products attracted low total profits (machine) and negative loss (table) on average. Identify opportunities to reduce these costs and improve profitability.
+4.Nigeria's high discounts (0.70) might be contributing to its low profitability. Negotiating better prices or reducing discounts could help improve profitability.
+5. Nigeria's low shipping costs (5.50) might be indicative of inefficient logistics or infrastructure. Investing in these areas could help reduce costs and improve profitability.
+6. Address Lancaster’s low profitability by investigating machine category losses. It could be due to high costs, low demand, or inefficient operations.
+7. Create a sales plan to target the copier category in Lancaster, as it has potential for high profits nationwide.
+8. Identify areas to optimize operations and reduce costs in Lancaster, particularly in categories with high losses.
+9. Investigate customer behavior and preferences in Lancaster to tailor sales strategies and improve profitability.
+10. Consider exploring new markets or categories in Lancaster that may offer better profit opportunities.
+11. Discontinue table sales in Indonesia due to high losses.
+    
+## X. Conclusion
+This analysis of Global Superstore’s dataset has highlighted key trends and insights into profitability, shipping costs, and customer behavior. The United States remains the most profitable market, while Nigeria struggles due to high discounts and low shipping costs. In Southeast Asia, table sales are a major loss driver, particularly in Indonesia. Furthermore, Lancaster’s low profitability in the United States is linked to poor product mix and high losses in the machine category. Addressing these issues through strategic product positioning, pricing adjustments, and cost optimization will enhance overall profitability and operational efficiency for Global Superstore.
+
+## Dashboard
+
+
+
+
+
+
+
+
+
 
 
 
